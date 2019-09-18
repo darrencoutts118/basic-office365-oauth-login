@@ -6,7 +6,7 @@ A very basic Office 365 OAuth 2.0 Login Script
 
 This assumes you already have an OAuth enabled app in your Azure Active Directory. 
 
-1. Create a Office365Auth instance with the tennant URL (eg `darrenstest.onmicrosoft.com`), your client id and secret, and the URL that the callback should be made to.
+1. Create a Office365Auth instance with the tenant URL (eg `darrenstest.onmicrosoft.com`), your client id and secret, and the URL that the callback should be made to.
 
 ```php
 new Office365Auth($office365_tenant, $office365_client, $office365_secret, $office365_redirect)
